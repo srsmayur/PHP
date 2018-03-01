@@ -19,6 +19,7 @@ class Home extends \Core\Controller
      */
     public function indexAction()
     {
-        View::renderTemplate('product.html');
+        View::renderTemplate('layout/layout.html');
+
     }
 }
